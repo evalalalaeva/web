@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog breeds details</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css">
+    <script src="../vendor/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/breeds-details.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar d-block">
+            <div class="d-flex justify-content-center align-items-center logo-pic">
+                <a href="#" class="navbar-brand"><img src="../img/image 9.png" alt="" class="logo navbar-brand" /></a>
+
+                <div class="d-flex justify-content-end profile-zone">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="magnifie">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+
+                    <img src="../img/profile-pic-11.jpg" alt="" class="profile-pic-user" />
+                </div>
+            </div>
+            <div class="navbar-expand-sm d-flex justify-content-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse justify-content-center align-items-center"
+                id="navbarToggleExternalContent">
+                <div class="navbar navbar-expand-lg" id="navbarToggleExternalContent">
+                    <ul class="navbar-nav gap-5">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" data-bs-target="dropdown">About dog</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-item dropdown-toggle">Dog info</a>
+                                    <ul class="dropdown-menu dropdown-2">
+                                        <li><a href="#" class="dropdown-item">Breeds</a></li>
+                                        <li><a href="#" class="dropdown-item">Dog news</a></li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">Pet insurance</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">Common disease</a>
+                                        </li>
+                                        <li><a href="#" class="dropdown-item">Poison</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a href="#" class="dropdown-item dropdown-toggle">Dog social</a>
+                                    <ul class="dropdown-menu dropdown-2">
+                                        <li>
+                                            <a href="#" class="dropdown-item">Dog community forum</a>
+                                        </li>
+                                        <li><a href="#" class="dropdown-item">Dog gallery</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a href="#">Adoption</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Shop</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Shopping</a></li>
+                                <li><a href="#" class="dropdown-item">Cart</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Expert</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Advice</a></li>
+                                <li><a href="#" class="dropdown-item">Traning</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">About us</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">About us</a></li>
+                                <li><a href="#" class="dropdown-item">Contact</a></li>
+                                <li><a href="#" class="dropdown-item">Team</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class=" lg d-none d-md-block " style="margin-left: 8em;">
+        <div class="container-fluid ">
+            <div class="row ">
+
+                <div class="head-lg d-flex">
+                    <div class="pic-lg">
+                        <img src="../img/dog-sm 1.png" alt="">
+                        <h1>Beagle</h1>
+                    </div>
+                    <div class="content-head-lg">
+                        <h2>History</h2>
+                        <p>The Beagle breed has origins that can be traced back to Roman times, but the Beagle as we
+                            know it today was developed in the 19th century in England. Beagles were bred for the
+                            purpose of hunting small game, particularly rabbits, due to their excellent sense of smell.
+                            This breed's sense of smell is only surpassed by the Bloodhound. They were also prized for
+                            their compact size, allowing a pack of Beagles to be transported easily for a day of
+                            hunting.
+
+                            Following the Civil War, Beagles began arriving in America. They were immediately popular
+                            with rabbit hunters and later became beloved family pets due to their friendly nature. Over
+                            time, Beagles were used in both field hunting and show competitions.
+
+                            Beagles have also been used in scientific research, particularly in studies of genetics and
+                            pharmacology, due to their manageable size, gentle temperament, and strong sense of smell.
+                            Despite this, their popularity as companion animals has grown steadily. Today, Beagles are
+                            among the most recognizable and cherished dog breeds worldwide.
+
+                            Their distinctive vocalizations, often described as “bay” or “howl,” made them excellent
+                            hunting companions in packs, allowing hunters to track game even over long distances.
+                            Additionally, their intelligence and curiosity make them active and playful family pets,
+                            though sometimes challenging due to their stubborn streak.
+
+                            In modern times, Beagles continue to be celebrated for their versatility, whether as hunting
+                            dogs, family companions, or participants in canine sports and shows. Their charming
+                            personality, adaptability, and enduring history ensure that the Beagle remains a favorite
+                            breed around the world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body-lg row ">
+            <div class="content-body-lg ">
+                <div class="content1-body-lg ">
+                    <h2>Main Info</h2>
+                    <table>
+                        <tr>
+                            <td>Origin </td>
+                            <td>England</td>
+                        </tr>
+                        <tr>
+                            <td>Lineage </td>
+                            <td>Scent Hound Lineage</td>
+                        </tr>
+                        <tr>
+                            <td>Alternate</td>
+                            <td>Names None known</td>
+                        </tr>
+                        <tr>
+                            <td>Life Expectancy</td>
+                            <td>10-15 years</td>
+                        </tr>
+                        <tr>
+                            <td>Average Male Height</td>
+                            <td>13-15 inches</td>
+                        </tr>
+                        <tr>
+                            <td>Average Female Height</td>
+                            <td>Under 14 inches</td>
+                        </tr>
+                        <tr>
+                            <td>Average Male Weight</td>
+                            <td>22-30 pounds</td>
+                        </tr>
+                        <tr>
+                            <td>Average Female Weight</td>
+                            <td>Under 20 pounds</td>
+                        </tr>
+                        <tr>
+                            <td>Coat Length</td>
+                            <td>Short Coat </td>
+                        </tr>
+                        <tr>
+                            <td>Type </td>
+                            <td>Smooth</td>
+                        </tr>
+                        <tr>
+                            <td>Coat Colors</td>
+                            <td> Black, Black & Tan, Black & white, Brown, Black Ran &
+                                Redtick, Red & Black,</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sub-col ">
+                    <div class="content2-body-lg">
+                        <h2>Personality and Behavior</h2>
+                        <p>Beagles are known to suffer from a range of conditions. Eye disorders that can affect them
+                            include cataracts, congenital stationary night blindness, cone-rod dystrophy 4, corneal
+                            dystrophy, lens luxation, primary open-angle glaucoma, distichiasis, keratoconjunctivitis
+                            sicca,
+                            optic nerve hypoplasia and micropapilla, persistent pupillary membranes, retinal dysplasia,
+                            stationary night blindness, tapetal degeneration, and progressive retinal atrophy
+                            (cord1/crd4).
+                        </p>
+                    </div>
+                    <div class="content3-body-lg">
+                        <h2>Genetic Predispositions and Health</h2>
+                        <p>Beagles are known to suffer from a range of conditions. Eye disorders that can affect them
+                            include cataracts, congenital stationary night blindness, cone-rod dystrophy 4, corneal
+                            dystrophy, lens luxation, primary open-angle glaucoma, distichiasis, keratoconjunctivitis
+                            sicca, optic nerve hypoplasia and micropapilla, persistent pupillary membranes, retinal
+                            dysplasia, stationary night blindness, tapetal degeneration, and progressive retinal atrophy
+                            (cord1/crd4).</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="foot-lg">
+            <h2>Fun Facts</h2>
+            <p>The American Kennel Club (AKC) registered its first Beagle, named Blunder, in 1885.According to the AKC,
+                there are different ideas about how this breed and its name came about. Some say the name derives from
+                the Gaelic word beag, meaning “little”, while others believe it relates to the French term for the sound
+                hounds make while hunting: be’geule.</p>
+        </div>
+    </div>
+
+    <div class="sm d-md-none" >
+        <div class="head-sm text-center">
+            <img src="../img/dog-sm 1.png" alt="">
+            <h1>Beagle</h1>
+
+        </div>
+
+        <div class="content1-sm d-block" >
+            <h2>Main Info</h2>
+            <table>
+                <tr>
+                    <td>Origin </td>
+                    <td>England</td>
+                </tr>
+                <tr>
+                    <td>Lineage </td>
+                    <td>Scent Hound Lineage</td>
+                </tr>
+                <tr>
+                    <td>Alternate</td>
+                    <td>Names None known</td>
+                </tr>
+                <tr>
+                    <td>Life Expectancy</td>
+                    <td>10-15 years</td>
+                </tr>
+                <tr>
+                    <td>Average Male Height</td>
+                    <td>13-15 inches</td>
+                </tr>
+                <tr>
+                    <td>Average Female Height</td>
+                    <td>Under 14 inches</td>
+                </tr>
+                <tr>
+                    <td>Average Male Weight</td>
+                    <td>22-30 pounds</td>
+                </tr>
+                <tr>
+                    <td>Average Female Weight</td>
+                    <td>Under 20 pounds</td>
+                </tr>
+                <tr>
+                    <td>Coat Length</td>
+                    <td>Short Coat </td>
+                </tr>
+                <tr>
+                    <td>Type </td>
+                    <td>Smooth</td>
+                </tr>
+                <tr>
+                    <td>Coat Colors</td>
+                    <td> Black, Black & Tan, Black & white, Brown, Black Ran &
+                        Redtick, Red & Black</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="container-fluid d-block">
+            <div class="row ">
+                <div class="content d-flex">
+                    <div class="content2-sm col-sm-6 ">
+                        <h2>History</h2>
+                        <p>The Beagle breed has origins that can be traced back to Roman times, but the Beagle as we
+                            know it
+                            today was developed in the 19th century in England. Beagles were bred for the purpose of
+                            hunting
+                            small game, particularly rabbits, due to their excellent sense of smell. This breed's sense
+                            of
+                            smell is only surpassed by the Bloodhound. They were also prized for their compact size,
+                            allowing a pack of Beagles to be transported easily for a day of hunting. Following the
+                            Civil
+                            War, Beagles began arriving in America. They were immediately popular with rabbit hunters.
+                        </p>
+                    </div>
+
+                    <div class="content3-sm col-sm-6">
+                        <h2>Genetic Predispositions and Health</h2>
+                        <p>Beagles are known to suffer from a range of conditions. Eye disorders that can affect them
+                            include cataracts, congenital stationary night blindness, cone-rod dystrophy 4, corneal
+                            dystrophy, lens luxation, primary open-angle glaucoma, distichiasis, keratoconjunctivitis
+                            sicca, optic nerve hypoplasia and micropapilla, persistent pupillary membranes, retinal
+                            dysplasia, stationary night blindness, tapetal degeneration, and progressive retinal atrophy
+                            (cord1/crd4).
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="content d-flex">
+                    <div class="sova col-sm-6 ">
+                        <h2>Personality and Behavior</h2>
+                        <p>Beagles are friendly, curious, and intelligent dogs, making them excellent companions for
+                            families. They are known for their gentle temperament, playful nature, and strong sense of
+                            smell. However, Beagles can also be stubborn and independent, which sometimes makes training
+                            a bit challenging. Consistent, positive reinforcement is usually the most effective method
+                            for teaching them commands and good behavior.
+                        </p>
+                    </div>
+
+                    <div class="content5-sm col-sm-6">
+                        <h2>Fun Facts</h2>
+                        <p>The American Kennel Club (AKC) registered its first Beagle, named Blunder, in 1885. According
+                            to the AKC, there are different ideas about how this breed and its name came about. Some say
+                            the name derives from the Gaelic word beag, meaning “little”, while others believe it
+                            relates to the French term for the sound hounds make while hunting: be’geule.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+</body>
+</body>
+
+</html>
