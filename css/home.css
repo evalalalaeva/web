@@ -1,0 +1,71 @@
+header {
+    margin-bottom: 0;
+}
+
+.navigation-menu {
+    margin-bottom: -1em;
+}
+
+.home-banner{
+    width: 100%;
+    margin: 0;
+}
+
+
+
+
+.history {
+    margin: 3em 2em 2em 4em;
+    font-size: 3em;
+    text-indent: 2em;
+}
+
+#history2,
+#history3,
+#history4,
+#history5 {
+    margin-top: -3em;
+    padding: 1em;
+    border-radius: 30px;
+}
+
+#history1 {
+    padding: 1em;
+    border-radius: 30px;
+    background: #FFDF88;
+}
+
+#history2 {
+    background: #FFD562;
+}
+
+#history3 {
+    background-color: #FFC62A;
+}
+
+#history4 {
+    background-color: #E4A700;
+}
+
+#history5 {
+    background-color: #CE990A;
+}
+@media(max-width:768px){
+    .history{
+        font-size: 1em;
+    }
+}
+.year {
+    font-size: 5em;
+}
+
+#year1 {
+    margin-top: 3em;
+}
+
+#year2,
+#year3,
+#year4,
+#year5 {
+    margin-top: 2em;
+}

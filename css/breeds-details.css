@@ -1,0 +1,101 @@
+body{
+    background-color:#FFDF88 ;
+}
+.pic-lg{
+    border-radius: 2em;
+    background-color: white;
+    text-align: center;
+    margin-left: 1.5em;
+
+}
+h1{
+    margin-top: 0.5em;
+    font-size: 4em;
+}
+
+.content-head-lg{
+    border-radius: 2em;
+    margin-left: 2em;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+}
+h2{
+      text-align: center;
+    padding: 1em 1em 0em 1em;
+    font-size: 3em;
+}
+ p{
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.content1-body-lg{
+    margin-top: 2em;
+    width: 17%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-left: 2em;
+    border-radius: 2em;
+}
+.sub-col{
+    float: left;
+    width: 76%;
+}
+.content2-body-lg,.content3-body-lg{
+    background-color: rgb(255, 255, 255);
+    margin: 2em;
+    border-radius: 2em;
+    
+}
+
+table td{
+    padding-left: 0.5em;
+    border: 1px solid black;
+}
+
+table{
+    font-size: 1.3em;
+     margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border-collapse: collapse;
+}
+
+.foot-lg{
+    width: 91%;
+    border-radius: 2em;
+    margin: 2em 2em;
+    background-color: rgb(255, 255, 255);
+}
+.head-sm{
+    scale: 0.7;
+    margin-top: -6em;
+}
+
+.sm h2{
+    font-weight: 900;
+    margin: -0.5em;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.sm p{
+    font-size: 1.3em;
+}
+
+.content1-sm table td{
+    font-size: 0.9em;
+}
+.content1-sm table{
+    background-color: white;
+}
+.content1-sm{
+    margin-top: -5em;
+}
+.content2-sm,.content3-sm,.sova,.content5-sm{
+    background-color: white;
+    border-radius: 2em;
+    margin: 1em 1em;
+}
+.sova{
+    padding: 0.5em;
+}
